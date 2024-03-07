@@ -1,0 +1,202 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url("../imagens/capa.png"),
+                url("../imagens/ruido.png"),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
+.navbar-transparente {
+    background: rgba(0,0,0,0.6);
+}
+
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+/* Navegação Header */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+/* Capa */
+.capa {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: -0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-roxo {
+    font-weight: 500;
+    background-color: #7c26f8;
+    border-radius: 500px;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-roxo:hover {
+    background-color: #6a10e8;
+    transition: 0.5s;
+    color: white;
+}
+
+.btn-branco {
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 500px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btn-branco:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Conteúdos */
+#conteudos {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.caixa {
+    padding: 15px 0;
+}
+
+.albuns {
+    padding: 15px 0;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+ #conteudos h3,  #conteudos h2 {
+    color: rgb(152, 1, 152);
+
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Recursos */
+#recursos p,  #recursos h2  {
+    color: white;
+}
+
+#recursos h3 {
+    color: rgb(192, 227, 238)
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    position: relative;
+    padding: 15px 0 35px 0;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: rgba(240, 248, 255, 0.281);
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 10px;
+}
+
+/*  Media Quaries */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* // Small devices (landscape phones, 576px and up)
+ */@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    h1 {
+        font-size: 3em;
+        color: white;
+    }
+  }
+
+/* // Medium devices (tablets, 768px and up)
+ */@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 4em;
+        color: white;
+    }
+  }
+
+/* // Large devices (desktops, 992px and up)
+ */@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 5em;
+        color: white;
+    }
+  }
+
+/* // Extra large devices (large desktops, 1200px and up)
+ */@media (min-width: 1200px) { 
+    h1 {
+        font-size: 6em;
+        color: white;
+    }
+  }
